@@ -15,7 +15,7 @@ print "You've been logged in\n"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""⛵⛵Annda selfbot⛵⛵
+helpMessage ="""My selfbot
 
 「Commands」
 ➠  Help
@@ -470,7 +470,7 @@ def bot(op):
             elif msg.text in ["Runtime"]:
               if msg.from_ in admin:
                 eltime = time.time() - Start
-                van = "Annda bot has been running for:\n"+waktu(eltime)
+                van = "My bot has been running for:\n"+waktu(eltime)
                 cl.sendText(msg.to,van)
             
             elif msg.text in [".crash"]:
@@ -1326,7 +1326,7 @@ def bot(op):
                 
             elif msg.text in ["Respon"]:
               if msg.from_ in admin:    
-		cl.sendText(msg.to,"Annda here  \(ˆ▿ˆ)/")
+		cl.sendText(msg.to,"I'm here  \(ˆ▿ˆ)/")
 		    
 		    
 #--------------------------------------------------------
