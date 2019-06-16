@@ -10,7 +10,7 @@ import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests,
 cl = LINETCR.LINE()
 cl.login(token="EogdTQfvjLK46rIuGCm8.wOOueDmiOnsPzSq34HkxYa.F8rvFF3za92iloflJajDyR7OpS8WCPoEPKsxyIjtxR8=")
 cl.loginResult()
-print "You've been logged in\n"
+print "You've been logged in"
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
